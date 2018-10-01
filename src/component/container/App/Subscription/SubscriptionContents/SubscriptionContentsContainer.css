@@ -95,6 +95,7 @@
 
 .SubscriptionContentsContainer-contentTitleLink {
     color: #000;
+    text-decoration: none;
 }
 
 .SubscriptionContentsContainer-contentFooter {
