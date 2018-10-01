@@ -58,14 +58,14 @@ export class SubscriptionContentComponent extends UserScriptHookComponent<Subscr
             >
                 <header className="SubscriptionContentsContainer-contentHeader">
                     <h2 className="SubscriptionContentsContainer-contentTitle">
-                        <Link
+                        <a
                             className="SubscriptionContentsContainer-contentTitleLink"
                             href={this.props.url}
                             target="_blank"
                             rel="noopener"
                         >
                             {this.props.title}
-                        </Link>
+                        </a>
                     </h2>
                     <div className="SubscriptionContentsContainer-contentMeta">
                         <Link
