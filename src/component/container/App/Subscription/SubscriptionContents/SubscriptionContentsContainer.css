@@ -74,7 +74,8 @@
 }
 
 .SubscriptionContentsContainer-contentBody img {
-    max-width: 650px;
+    display: inline-table; /* workaround https://stackoverflow.com/questions/39861687/how-to-prevent-fractional-pixels-in-an-element-with-width-set-to-auto */
+    max-width: 1024px;
     height: auto;
     object-fit: contain;
 }
